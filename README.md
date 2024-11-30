@@ -59,3 +59,10 @@ This is the backend service for the e-commerce application. It handles APIs, dat
    ```bash
    npm start
    ```
+
+ ### Deployment Server Info
+   ```bash
+    https://ecommerce-backend-po3p.onrender.com/
+
+    Note : Check all other api path in routes folder 
+    ```
