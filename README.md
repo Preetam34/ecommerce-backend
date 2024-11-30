@@ -36,23 +36,23 @@ This is the backend service for the e-commerce application. It handles APIs, dat
 2. Navigate to the project directory:
    ```bash
    cd backend-repo
-```
+   ```
 
 3. Install dependencies:
    ```bash
    npm install
    ```
 4. Configure environment variables in .env:
-   ```bash
-JWTPRIVATEKEY = "wQFUlZ7fgEZaLZeSQqJTPh80C_C9if2VBoVggtjrLqkHu39tpctwktircZ4KG6ScjXiE5h3cJF_SC6DpulKTkgKvZLg2bea4D4brmVSDFvIovmsGs561iHF5Fj2Gy16bsgFKZ5vgNZUa-hRK_50KYpKsRQAL0tWNItucIl2NOdE"
+  ```bash
+   JWTPRIVATEKEY = wQFUlZ7fgEZaLZeSQqJTPh80C_C9if2VBoVggtjrLqkHu39tpctwktircZ4KG6ScjXiE5h3cJF_SC6DpulKTkgKvZLg2bea4D4brmVSDFvIovmsGs561iHF5Fj2Gy16bsgFKZ5vgNZUa-hRK_50KYpKsRQAL0tWNItucIl2NOdE
 
-PORT = 5000
+   PORT = 5000
 
-JWT_SECRET = MERNSECRET
+   JWT_SECRET = MERNSECRET
 
-BCRYPT_SALT=10
+   BCRYPT_SALT=10
 
-DB_URL = mongodb+srv://preetamkumar3432:learn2progress@preetam.24oxb.mongodb.net/?retryWrites=true&w=majority&appName=Preetam
+   DB_URL = mongodb+srv://preetamkumar3432:learn2progress@preetam.24oxb.mongodb.net/?retryWrites=true&w=majority&appName=Preetam
    ```
 
 5. Start the server:
